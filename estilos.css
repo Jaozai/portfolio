@@ -1,0 +1,450 @@
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:active {
+	text-decoration: none;
+	color: green;
+}
+
+a:hover {
+	color: white;
+	border-radius: 10px;
+	margin:none;
+	border: 2px solid white;
+}
+
+.flecha:hover {
+  transform: rotate(80deg);
+  transition-duration: 100ms;
+
+}
+
+
+
+body{
+	max-width: 100%;
+	max-height: 500px;
+	margin: auto;
+	background-color: #0A0A0B;
+}
+
+#header {
+	width: 90%;
+	margin: auto;
+}
+
+#logo{
+	font-size: 36px;
+	font-family: Bradesco Sans, Helvetica, Arial;
+	display: inline-block;
+	font-weight: 700;
+	padding: none;
+	color: white ;
+}
+
+@media screen and (max-width:900px) {
+
+#logo {
+	max-width: 100%;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 2px;
+	text-align: center;
+}
+}
+
+@media screen and (max-width:500px) {
+
+#logo {
+	max-width: 100%;
+	display: block;
+	margin: auto;
+	margin-top:10px;
+	margin-bottom: 2px;
+	text-align: center;
+}
+}
+
+.vitor {
+	font-family: Bradesco Sans, Helvetica, Arial;
+	font-weight: 300;
+	font-style: italic;
+	color: white;
+}
+
+
+.flecha {
+	max-width: 30px;
+	 transition: transform .7s ease-in-out;
+}
+@media screen and (max-width:900px) {
+
+.flecha {
+	max-width: 20px;
+	display: inline-block;
+}
+}
+
+
+#sidemenucase{
+	display: inline-block;
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+	max-width: 70%;
+}
+
+.sepmenu {
+	margin: 2px;
+	display: inline-block;
+}
+
+@media screen and (max-width:900px) {
+
+#sidemenucase {
+	max-width:100%;
+	display:block;
+	margin:auto;
+	float: none;
+	text-align: center;
+	margin-bottom: 10px;
+}
+}
+
+#sidemenu{
+	display: inline-block;
+	margin: auto;
+	font-size: 20px;
+	font-family: Courier New;
+	color: white;
+}
+
+@media screen and (max-width:900px) {
+
+#sidemenu {
+	font-size:18px;
+	display: inline-flex;
+	text-align: center;
+	margin: 10px;
+	margin-bottom: 10px;
+	align-items: center;
+}
+}
+
+@media screen and (max-width:500px) {
+
+#sidemenu {
+	font-size:14px;
+	display: inline-flex;
+	text-align: center;
+	margin: 5px;
+	margin-bottom: 10px;
+	align-items: center;
+}
+}
+
+#corpo {
+	max-width: 80%;
+	max-height: 80%;
+	margin: auto;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	background-color: white;
+	background-image: url("./torta de limão.png");
+	background-size:60%;
+	background-repeat: no-repeat;
+	background-position: right;
+	display: block;
+}
+		 @media screen and (max-width:800px){
+		 #corpo{
+		 	max-width: 80%;
+			max-height: 80%;
+			margin: auto;
+			border: 1px solid transparent;
+			border-radius: 10px;
+			background-color: white;
+			background-image: url("./torta de limão.png");
+			background-size:80%;
+			background-repeat: no-repeat;
+			background-position: right;
+			display: block;
+		 }
+		 }
+
+		 @media screen and (max-width:500px){
+		 #corpo{
+		 	max-width: 80%;
+			max-height: 80%;
+			margin: auto;
+			border: 1px solid transparent;
+			border-radius: 10px;
+			background-color: white;
+			background-image: url("./torta de limão.png");
+			background-size:120%;
+			background-repeat: no-repeat;
+			background-position: left;
+			display: block;
+
+		}
+		}
+
+.italico {
+	font-style: italic;
+}
+
+.clear {
+	clear: both;
+}
+
+
+#footer {
+	position: fixed;
+	bottom:-2%;
+	width: 100%;
+}
+
+.footerstyle {
+	font-family:monospace;
+	color: #3d4042;
+	font-weight: 400px;
+	font-size: 12px;
+}
+
+.core {
+	color: red;
+	font-size: 16px;
+}
+
+marquee {
+width: 100%;
+margin:10px;
+}
+
+.separador {
+	width: 100%;
+	height: 20px;
+}
+
+
+.testee{
+	
+	text-align: center;
+	font-size: 25px;
+	font-family: monospace;
+	font-style: italic;
+	font-weight: 300px;
+	color:black;
+	text-shadow: -3px -3px 0 white, 3px -3px 0 white, -3px 3px 0 white, 3px 3px 0 white;
+}
+
+@media screen and (max-width 500px) {
+	.testee{
+	height: 500px;
+	text-align: center;
+	font-size: 25px;
+	font-family: monospace;
+	font-style: italic;
+	font-weight: 300px;
+	color:black;
+	text-shadow: -3px -3px 0 white, 3px -3px 0 white, -3px 3px 0 white, 3px 3px 0 white;
+
+}
+}
+
+.subtitulo {
+	margin-top: 450px;
+	margin-left: 2px;
+	display: block;
+	color: black;
+	text-align: left;
+	font-family: monospace;
+	font-weight: 300px;
+  text-shadow: -3px -3px 0 white, 3px -3px 0 white, -3px 3px 0 white, 3px 3px 0 white;
+}
+
+@media screen and (max-width:500px) {
+	.subtitulo{
+	margin-top: 350px;
+	margin-left: 2px;
+	display: block;
+	color: black;
+	text-align: left;
+	font-family: monospace;
+	font-weight: 300px;
+  text-shadow: -3px -3px 0 white, 3px -3px 0 white, -3px 3px 0 white, 3px 3px 0 white;
+	}
+}
+
+.bolo {
+	width: 55px;
+	position: absolute;
+	top: 13%;
+	left: 8%;
+}
+
+.bolo2 {
+	width: 70px;
+	position: absolute;
+	bottom: 2%;
+	right: 8%;
+}
+
+/*SOBRE MIM*/
+
+#hd1 {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	display: inline-block;
+	/*background: rgba(255, 255, 255, 0);
+	border-radius: 16px;
+	backdrop-filter: blur(1.5px);
+	-webkit-backdrop-filter: blur(1.5px);*/
+	background-color: orange;
+	z-index: 2;
+}
+
+#abtme {
+	background-color: white;
+	border-radius: 10px;
+	width: 80%;
+	margin: auto;
+	margin-top: 8%;
+	z-index: 1;
+}
+
+@media screen and (max-width:500px) {
+	#abtme {
+	background-color: white;
+	border-radius: 10px;
+	width: 80%;
+	margin: auto;
+	margin-top: 28%;
+}
+}
+
+.perfil {
+	width: 150px;
+	padding: 10px;
+}
+
+.abtme1pos {
+	width: 70%;
+	position: absolute;
+	top: 15%;
+	left: 25%;
+}
+
+.abtme1 {
+	width: 70%;
+	display: inline-block;
+	overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: 
+    escrevendo 1.5s steps(40, end),
+    cursor .75s step-end infinite;
+
+	font-family: Helvetica, sans-serif;
+	font-size: 55px;
+}
+
+@keyframes escrevendo {
+  from { width: 0 }
+  to { width: 50% }
+}
+
+/* The typewriter cursor effect */
+@keyframes cursor {
+  from, to { border-color: black; }
+  30% { border-color: black; }
+}
+
+.abtme2 {
+	font-family: monospace,sans-serif;
+	font-size: 18px;
+	width: 80%;
+	text-align: right;
+}
+
+.abtme3 {
+	font-family: monospace;
+	font-weight: 200px;
+	font-size: 20px;
+	width: 70%;
+	text-align: right;
+	margin: auto;
+}
+
+#skills {
+	background-color: orange;
+	color:white;
+	border-radius: 5px;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+#skills2 {
+	background-color:#fcf9f2;
+	border-radius: 5px;
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+
+.sks1 {
+	font-family: helvetica,open-sans;
+	font-style: italic;
+}
+
+
+/*CONTATOS*/
+
+#cttbox {
+	border-radius: 20px;
+	background-color: #95A295;
+	width: 80%;
+	margin: auto;
+
+}
+
+#bodyctt {
+	background-image: url("./wpp1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: middle;
+}
+
+.phone {
+	width: 350px;
+	position: absolute;
+	top: 10%;
+	right: 20%;
+
+}
+
+.call {
+	color: white;
+	font-family: monospace;
+	font-size: 45px;
+}
+
+.logosctt {
+	width: 50px;
+
+}
+
+
+
